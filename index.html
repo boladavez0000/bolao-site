@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados do Bolão</title>
+    <style>
+        body {
+            background-color: black;
+            color: green;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        .tabs {
+            margin-bottom: 20px;
+        }
+        .tab-button {
+            background-color: black;
+            color: green;
+            border: 1px solid green;
+            padding: 10px 20px;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+        .tab-button.active {
+            background-color: green;
+            color: black;
+        }
+        .tab-content {
+            display: none;
+        }
+        .tab-content.active {
+            display: block;
+        }
+        .header {
+            margin-bottom: 20px;
+        }
+        .periodo {
+            font-size: 14px;
+        }
+        .grupo {
+            font-size: 12px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid green;
+            padding: 8px;
+            text-align: center;
+            color: green;
+        }
+        th {
+            background-color: black;
+        }
+        tr:nth-child(even) {
+            background-color: #111111;
+        }
+        .numero {
+            display: inline-block;
+            margin: 2px;
+        }
+        .acertado {
+            border: 2px solid green;
+            border-radius: 50%;
+            padding: 5px;
+        }
+        .rodape {
+            font-style: italic;
+            margin-top: 20px;
+        }
+        .error-message {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Relatório de Resultados de Apostas</h1>
+    
+    <div class="tabs">
+        <button class="tab-button active" onclick="openTab('acertos')">Ordem de Acertos</button>
+        <button class="tab-button" onclick="openTab('alfabetica')">Ordem Alfabética</button>
+        <button class="tab-button" onclick="openTab('regras')">Regras do Bolão</button>
+    </div>
+    
+    <div id="acertos" class="tab-content active">
+        <div id="acertos-content"></div>
+    </div>
+    
+    <div id="alfabetica" class="tab-content">
+        <div id="alfabetica-content"></div>
+    </div>
+    
+    <div id="regras" class="tab-content">
+        <h1>Regras do Bolão</h1>
+        <ul>
+            <li>Cada aposta custa R$ 10,00.</li>
+            <li>O prêmio é 70% do total arrecadado.</li>
+            <li>Os acertos são baseados nas dezenas apuradas.</li>
+            <li>Proibido para menores de 18 anos.</li>
+        </ul>
+    </div>
+    
+    <!-- Inclui o script externo com verificação aprimorada -->
+    <script src="script.js" onerror="handleScriptError(event)"></script>
+    <script>
+        function handleScriptError(event) {
+            console.error('Erro ao carregar script.js:', event);
+            document.querySelectorAll('.tab-button').forEach(button => {
+                button.onclick = null;
+                button.disabled = true;
+                button.textContent += ' (Erro)';
+            });
+            document.getElementById('acertos-content').innerHTML = '<p class="error-message">Erro: O arquivo script.js não foi encontrado. Coloque-o em C:\\MeusProjetos\\Java\\Bolao-site\\</p>';
+        }
+
+        // Verifica se o script foi carregado e inicializa
+        if (typeof openTab === 'undefined') {
+            console.error('A função openTab não está definida. Certifique-se de que script.js está presente e correto em C:\\MeusProjetos\\Java\\Bolao-site\\');
+            handleScriptError({ target: { src: 'script.js' } });
+        } else {
+            window.onload = function() {
+                openTab('acertos');
+            };
+        }
+    </script>
+</body>
+</html>

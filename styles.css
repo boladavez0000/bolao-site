@@ -108,3 +108,10 @@ tr:nth-child(even) {
     color: white;
     margin-top: 20px;
 }
+
+.rodape {
+    text-align: center;
+    font-style: italic;
+    color: white;
+    margin-top: 20px;
+}

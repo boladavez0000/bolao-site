@@ -99,7 +99,7 @@ tr:nth-child(even) {
     border: 2px solid white;
     border-radius: 50%;
     padding: 5px;
-    background-color: #00FF00; /* Alterado de #FFFFFF para verde */
+    background-color: transparent; /* Alterado de #00FF00 para transparente */
 }
 
 .rodape {

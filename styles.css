@@ -44,6 +44,11 @@ h1, h2 {
     display: block;
 }
 
+.regras-text {
+    text-align: left;
+    margin: 20px;
+}
+
 .report {
     color: white;
     text-align: center;

@@ -71,6 +71,8 @@ table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
+    overflow-x: auto; /* Adicionado para rolagem horizontal em telas pequenas */
+    display: block; /* Para permitir rolagem */
 }
 
 th, td {
@@ -78,6 +80,7 @@ th, td {
     padding: 8px;
     text-align: center;
     color: white;
+    min-width: 50px; /* Garante uma largura mínima */
 }
 
 th {
@@ -86,7 +89,7 @@ th {
 }
 
 tr:nth-child(even) {
-    background-color: #0000FF; /* Alterado de #111 (preto) para azul */
+    background-color: #0000FF; /* Linhas pares em azul */
 }
 
 .numero {
@@ -99,16 +102,64 @@ tr:nth-child(even) {
     border: 2px solid white;
     border-radius: 50%;
     padding: 5px;
-    background-color: #0000FF; /* Alterado de transparent para azul */
+    background-color: #0000FF; /* Círculos em azul */
 }
 
-.rodape {
-    text-align: center;
-    font-style: italic;
-    color: white;
-    margin-top: 20px;
+/* Media Query para telas menores (smartphones, até 768px) */
+@media only screen and (max-width: 768px) {
+    body {
+        padding: 10px; /* Reduz padding geral */
+    }
+
+    .container {
+        max-width: 100%; /* Usa 100% da largura da tela */
+        padding: 0 10px; /* Adiciona padding lateral */
+    }
+
+    .tabs {
+        flex-direction: column; /* Empilha os botões verticalmente */
+        margin-bottom: 10px;
+    }
+
+    .tab-button {
+        width: 100%; /* Botões ocupam toda a largura */
+        margin: 5px 0; /* Espaçamento vertical */
+        padding: 8px;
+    }
+
+    table {
+        font-size: 14px; /* Reduz o tamanho da fonte */
+        min-width: 600px; /* Garante que a tabela tenha largura mínima para rolagem */
+    }
+
+    th, td {
+        padding: 6px; /* Reduz padding nas células */
+        font-size: 12px; /* Ajusta fonte para melhor leitura */
+    }
+
+    .acertado {
+        padding: 3px; /* Reduz padding dos círculos */
+        width: 20px; /* Define largura fixa */
+        height: 20px; /* Define altura fixa */
+        display: inline-flex; /* Centraliza o número */
+        align-items: center;
+        justify-content: center;
+    }
+
+    .numero {
+        margin: 1px; /* Reduz margem entre números */
+    }
+
+    .report h1 {
+        font-size: 18px; /* Reduz o tamanho do título */
+    }
+
+    .report .periodo, .report .grupo {
+        font-size: 12px; /* Ajusta tamanhos de texto */
+    }
 }
 
+/* Estilo para o rodapé */
 .rodape {
     text-align: center;
     font-style: italic;

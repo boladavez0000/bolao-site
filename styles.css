@@ -86,7 +86,7 @@ th {
 }
 
 tr:nth-child(even) {
-    background-color: #111;
+    background-color: #0000FF; /* Alterado de #111 (preto) para azul */
 }
 
 .numero {
@@ -99,7 +99,7 @@ tr:nth-child(even) {
     border: 2px solid white;
     border-radius: 50%;
     padding: 5px;
-    background-color: transparent; /* Alterado de #00FF00 para transparente */
+    background-color: #0000FF; /* Alterado de transparent para azul */
 }
 
 .rodape {

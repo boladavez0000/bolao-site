@@ -3,171 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bolão Bola da Vez</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Resultados do Bolão</title>
     <style>
         body {
-            background-color: #1e293b; /* Fundo escuro */
-            color: #f9fafb; /* Texto claro */
+            background-color: black;
+            color: green;
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
         }
-        .highlighted {
-            font-weight: bold;
-            color: #10b981; /* Verde para números acertados */
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5), -1px -1px 2px rgba(16, 185, 129, 0.3); /* Efeito relevo */
+        h1 {
+            font-size: 24px;
         }
-        .tab-link {
-            background: linear-gradient(145deg, #3b82f6, #1e40af); /* Gradiente azul */
-            color: white;
-            padding: 10px;
-            border: none;
-            border-radius: 5px;
+        .tabs {
+            margin-bottom: 20px;
+        }
+        .tab-button {
+            background-color: black;
+            color: green;
+            border: 1px solid green;
+            padding: 10px 20px;
+            margin: 0 5px;
             cursor: pointer;
-            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px rgba(59, 130, 246, 0.2); /* Efeito relevo */
-            transition: all 0.3s ease;
         }
-        .tab-link:hover {
-            box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4), -3px -3px 6px rgba(59, 130, 246, 0.3);
-            transform: translateY(-1px);
+        .tab-button.active {
+            background-color: green;
+            color: black;
         }
         .tab-content {
             display: none;
-            background: linear-gradient(145deg, #2d3d5b, #1e293b);
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4), -3px -3px 6px rgba(45, 61, 91, 0.2);
-            margin-top: 10px;
         }
         .tab-content.active {
             display: block;
         }
-        header {
-            background: linear-gradient(145deg, #3b82f6, #1e40af);
-            padding: 20px;
-            text-align: center;
-            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px rgba(59, 130, 246, 0.2);
+        .header {
+            margin-bottom: 20px;
         }
-        footer {
+        .periodo {
+            font-size: 14px;
+        }
+        .grupo {
+            font-size: 12px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid green;
+            padding: 8px;
             text-align: center;
-            padding: 10px;
-            background: linear-gradient(145deg, #2d3d5b, #1e293b);
-            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px rgba(45, 61, 91, 0.2);
+            color: green;
+        }
+        th {
+            background-color: black;
+        }
+        tr:nth-child(even) {
+            background-color: #111111;
+        }
+        .numero {
+            display: inline-block;
+            margin: 2px;
+        }
+        .acertado {
+            border: 2px solid green;
+            border-radius: 50%;
+            padding: 5px;
+        }
+        .rodape {
+            font-style: italic;
             margin-top: 20px;
+        }
+        .error-message {
+            color: red;
         }
     </style>
 </head>
 <body>
-    <!-- Cabeçalho Centralizado -->
-    <header>
-        <h1 class="text-3xl font-bold text-white">Seja Bem Vindo ao Bolão Bola da Vez</h1>
-    </header>
-
-    <!-- Container Principal -->
-    <div class="container mx-auto p-4 flex">
-        <!-- Menu de Abas -->
-        <div class="w-1/4 pr-4">
-            <ul class="space-y-2">
-                <li><button class="tab-link w-full text-left" data-tab="acertos">Ordem de Acertos</button></li>
-                <li><button class="tab-link w-full text-left" data-tab="alfabetica">Ordem Alfabética</button></li>
-                <li><button class="tab-link w-full text-left" data-tab="regras">Regras do Bolão</button></li>
-            </ul>
-        </div>
-
-        <!-- Conteúdo das Abas -->
-        <div class="w-3/4">
-            <!-- Relatório de Resultados de Apostas -->
-            <div id="acertos" class="tab-content active">
-                <h2 class="text-2xl font-semibold mb-4 text-white">Relatório de Resultados de Apostas</h2>
-                <p class="text-center mb-4 text-white">Seja Bem Vindo ao Bolão Bola da Vez</p>
-                <div id="acertosTable"></div>
-            </div>
-
-            <!-- Ordem Alfabética -->
-            <div id="alfabetica" class="tab-content">
-                <h2 class="text-2xl font-semibold mb-4 text-white">Ordem Alfabética</h2>
-                <div id="alfabeticaTable"></div>
-            </div>
-
-            <!-- Regras do Bolão -->
-            <div id="regras" class="tab-content">
-                <h2 class="text-2xl font-semibold mb-4 text-white">Regras do Bolão</h2>
-                <div id="regrasContent">
-                    ## Regulamento do Jogo "Bola da Vez"
-
-                    ### Como Funciona o Jogo
-
-                    1. O **Bola da Vez** começa toda segunda-feira, a partir das 12h. Os resultados válidos são os das **12h30**, **15h30** e **19h30**.
-                    2. Cada apostador deve escolher **10 dezenas**, que variam de **00 a 99**.
-                    3. Você pode repetir suas dezenas quantas vezes quiser. No entanto, para que um número repetido seja considerado um acerto, ele precisa sair no sorteio a mesma quantidade de vezes que você o apostou.
-                       * **Exemplo:** Se o resultado for (00-15-49-55-37-55-55-33-15-78) e sua aposta tiver (cinco) 55, você acertará apenas (três) 55, pois esse foi o total de vezes que o número saiu no sorteio. Para acertar os cinco, ele teria que sair cinco vezes no resultado.
-                    4. As apostas abrem logo após a divulgação de um vencedor e encerram toda quarta-feira, às **11h30**. Este é o prazo final para que os vendedores enviem os dados à Matriz para a apuração.
-
-                    ---
-
-                    ### Pagamentos e Premiações
-
-                    5. O prêmio para quem acertar 10 pontos será dividido em partes iguais caso haja mais de um ganhador.
-                    6. Os apostadores que acertarem **9 pontos** também serão premiados. O valor do prêmio será dividido se houver mais de um ganhador.
-                    7. Se ninguém acertar 9 pontos, o prêmio será dividido entre os apostadores que terminarem com **8 acertos**.
-                    8. O valor do prêmio pode aumentar ou diminuir conforme o número de apostas.
-                    9. O pagamento da aposta deve ser feito no ato, diretamente ao vendedor.
-                    10. O pagamento das premiações será efetuado em até **3 dias úteis**.
-
-                    ---
-
-                    ### Conferência e Validação da Aposta
-
-                    11. A aposta é feita por meio de um aplicativo. Você receberá um comprovante no seu WhatsApp para conferir suas dezenas na hora, junto com o vendedor.
-                    12. A **conferência do seu jogo é de sua inteira responsabilidade**. Ela deve ser feita no ato da aposta, com o vendedor. Não é possível fazer alterações depois que o arquivo já tiver sido transmitido para a Matriz.
-                    13. Nomes de apostadores que não sejam facilmente reconhecidos serão substituídos pelo número de telefone.
-                </div>
-            </div>
-        </div>
+    <h1>Relatório de Resultados de Apostas</h1>
+    
+    <div class="tabs">
+        <button class="tab-button active" onclick="openTab('acertos')">Ordem de Acertos</button>
+        <button class="tab-button" onclick="openTab('alfabetica')">Ordem Alfabética</button>
+        <button class="tab-button" onclick="openTab('regras')">Regras do Bolão</button>
     </div>
-
-    <!-- Rodapé -->
-    <footer>
-        <p class="text-white">A sorte é sua de levar. A nossa é te entregar. Prepare-se para comemorar!</p>
-    </footer>
-
+    
+    <div id="acertos" class="tab-content active">
+        <div id="acertos-content"></div>
+    </div>
+    
+    <div id="alfabetica" class="tab-content">
+        <div id="alfabetica-content"></div>
+    </div>
+    
+    <div id="regras" class="tab-content">
+        <h1>Regras do Bolão</h1>
+        <ul>
+            <li>Cada aposta custa R$ 10,00.</li>
+            <li>O prêmio é 70% do total arrecadado.</li>
+            <li>Os acertos são baseados nas dezenas apuradas.</li>
+            <li>Proibido para menores de 18 anos.</li>
+        </ul>
+    </div>
+    
+    <!-- Inclui o script externo com verificação aprimorada -->
+    <script src="script.js" onerror="handleScriptError(event)"></script>
     <script>
-        $(document).ready(function() {
-            $('.tab-link').click(function() {
-                $('.tab-content').removeClass('active');
-                $('#' + $(this).data('tab')).addClass('active');
-                $('.tab-link').removeClass('bg-blue-500').addClass('bg-blue-700');
-                $(this).removeClass('bg-blue-700').addClass('bg-blue-500');
+        function handleScriptError(event) {
+            console.error('Erro ao carregar script.js:', event);
+            document.querySelectorAll('.tab-button').forEach(button => {
+                button.onclick = null;
+                button.disabled = true;
+                button.textContent += ' (Erro)';
             });
+            document.getElementById('acertos-content').innerHTML = '<p class="error-message">Erro: O arquivo script.js não foi encontrado. Coloque-o em C:\\MeusProjetos\\Java\\Bolao-site\\</p>';
+        }
 
-            // Carregar acertos.json
-            $.getJSON('resultados/data/acertos.json', function(data) {
-                let table = $('<table class="w-full text-white"><tr><th>Apostador</th><th>Números Apostados</th><th>Acertos</th><th>Prêmio</th></tr></table>');
-                data.forEach(item => {
-                    let numeros = item.numeros_apostados.map(num => 
-                        item.acertos.includes(num) ? `<span class="highlighted">${num}</span>` : num
-                    ).join('-');
-                    table.append(`<tr><td>${item.apostador}</td><td>${numeros}</td><td>${item.acertos.length}</td><td>${item.premio}</td></tr>`);
-                });
-                $('#acertosTable').html(table);
-            });
-
-            // Carregar alfabetica.json
-            $.getJSON('resultados/data/alfabetica.json', function(data) {
-                let table = $('<table class="w-full text-white"><tr><th>Apostador</th><th>Números Apostados</th><th>Acertos</th><th>Prêmio</th></tr></table>');
-                data.forEach(item => {
-                    let numeros = item.numeros_apostados.map(num => 
-                        item.acertos.includes(num) ? `<span class="highlighted">${num}</span>` : num
-                    ).join('-');
-                    table.append(`<tr><td>${item.apostador}</td><td>${numeros}</td><td>${item.acertos.length}</td><td>${item.premio}</td></tr>`);
-                });
-                $('#alfabeticaTable').html(table);
-            });
-
-            // Data no rodapé (ajustada para o horário local)
-            let dataAtual = new Date().toLocaleString('pt-BR', { timeZone: 'America/Sao_Paulo' });
-            $('footer').append(`<p class="text-white mt-2">Atualizado em: ${dataAtual}</p>`);
-        });
+        // Verifica se o script foi carregado e inicializa
+        if (typeof openTab === 'undefined') {
+            console.error('A função openTab não está definida. Certifique-se de que script.js está presente e correto em C:\\MeusProjetos\\Java\\Bolao-site\\');
+            handleScriptError({ target: { src: 'script.js' } });
+        } else {
+            window.onload = function() {
+                openTab('acertos');
+            };
+        }
     </script>
 </body>
 </html>

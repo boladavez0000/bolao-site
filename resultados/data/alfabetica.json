@@ -307,13 +307,15 @@
         99
       ],
       "vendedor": "Matriz",
-      "acerto": 6,
+      "acerto": 8,
       "apostaNum": "2",
       "apostador": "DAmião Soares Santos",
       "numerosAcertados": [
+        29,
         99,
         99,
         43,
+        55,
         55,
         55,
         55
@@ -333,37 +335,41 @@
         99
       ],
       "vendedor": "Joca",
+      "acerto": 8,
+      "apostaNum": "2",
+      "apostador": "DAmião Soares Santos",
+      "numerosAcertados": [
+        29,
+        99,
+        99,
+        43,
+        55,
+        55,
+        55,
+        55
+      ]
+    },
+    {
+      "apostaCompleta": [
+        29,
+        43,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55,
+        55
+      ],
+      "vendedor": "Cosme",
       "acerto": 6,
       "apostaNum": "2",
       "apostador": "DAmião Soares Santos",
       "numerosAcertados": [
-        99,
-        99,
-        43,
-        55,
-        55,
-        55
-      ]
-    },
-    {
-      "apostaCompleta": [
         29,
         43,
         55,
-        55,
-        55,
-        55,
-        55,
-        55,
-        55,
-        55
-      ],
-      "vendedor": "Cosme",
-      "acerto": 4,
-      "apostaNum": "2",
-      "apostador": "DAmião Soares Santos",
-      "numerosAcertados": [
-        43,
         55,
         55,
         55
@@ -383,11 +389,13 @@
         55
       ],
       "vendedor": "Teodoro",
-      "acerto": 4,
+      "acerto": 6,
       "apostaNum": "2",
       "apostador": "DAmião Soares Santos",
       "numerosAcertados": [
+        29,
         43,
+        55,
         55,
         55,
         55
@@ -407,11 +415,13 @@
         55
       ],
       "vendedor": "Adão",
-      "acerto": 4,
+      "acerto": 6,
       "apostaNum": "2",
       "apostador": "DAmião Soares Santos",
       "numerosAcertados": [
+        29,
         43,
+        55,
         55,
         55,
         55
@@ -431,11 +441,13 @@
         55
       ],
       "vendedor": "Negão",
-      "acerto": 4,
+      "acerto": 6,
       "apostaNum": "2",
       "apostador": "DAmião Soares Santos",
       "numerosAcertados": [
+        29,
         43,
+        55,
         55,
         55,
         55
@@ -455,11 +467,13 @@
         55
       ],
       "vendedor": "Zé Grandão",
-      "acerto": 4,
+      "acerto": 6,
       "apostaNum": "2",
       "apostador": "DAmião Soares Santos",
       "numerosAcertados": [
+        29,
         43,
+        55,
         55,
         55,
         55
@@ -479,11 +493,13 @@
         55
       ],
       "vendedor": "Totonha",
-      "acerto": 4,
+      "acerto": 6,
       "apostaNum": "2",
       "apostador": "DAmião Soares Santos",
       "numerosAcertados": [
+        29,
         43,
+        55,
         55,
         55,
         55
@@ -503,14 +519,232 @@
         55
       ],
       "vendedor": "Toinha",
-      "acerto": 4,
+      "acerto": 6,
       "apostaNum": "2",
       "apostador": "DAmião Soares Santos",
       "numerosAcertados": [
+        29,
         43,
         55,
         55,
+        55,
         55
+      ]
+    },
+    {
+      "apostaCompleta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "vendedor": "Matriz",
+      "acerto": 4,
+      "apostaNum": "3",
+      "apostador": "DAmião Soares Santos",
+      "numerosAcertados": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "apostaCompleta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "vendedor": "Joca",
+      "acerto": 4,
+      "apostaNum": "3",
+      "apostador": "DAmião Soares Santos",
+      "numerosAcertados": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "apostaCompleta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "vendedor": "Cosme",
+      "acerto": 4,
+      "apostaNum": "3",
+      "apostador": "DAmião Soares Santos",
+      "numerosAcertados": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "apostaCompleta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "vendedor": "Teodoro",
+      "acerto": 4,
+      "apostaNum": "3",
+      "apostador": "DAmião Soares Santos",
+      "numerosAcertados": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "apostaCompleta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "vendedor": "Adão",
+      "acerto": 4,
+      "apostaNum": "3",
+      "apostador": "DAmião Soares Santos",
+      "numerosAcertados": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "apostaCompleta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "vendedor": "Negão",
+      "acerto": 4,
+      "apostaNum": "3",
+      "apostador": "DAmião Soares Santos",
+      "numerosAcertados": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "apostaCompleta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "vendedor": "Zé Grandão",
+      "acerto": 4,
+      "apostaNum": "3",
+      "apostador": "DAmião Soares Santos",
+      "numerosAcertados": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "apostaCompleta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "vendedor": "Totonha",
+      "acerto": 4,
+      "apostaNum": "3",
+      "apostador": "DAmião Soares Santos",
+      "numerosAcertados": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "apostaCompleta": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "vendedor": "Toinha",
+      "acerto": 4,
+      "apostaNum": "3",
+      "apostador": "DAmião Soares Santos",
+      "numerosAcertados": [
+        0,
+        0,
+        0,
+        0
       ]
     },
     {
@@ -538,29 +772,6 @@
     },
     {
       "apostaCompleta": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "vendedor": "Matriz",
-      "acerto": 3,
-      "apostaNum": "3",
-      "apostador": "DAmião Soares Santos",
-      "numerosAcertados": [
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "apostaCompleta": [
         1,
         1,
         1,
@@ -580,29 +791,6 @@
         1,
         13,
         15
-      ]
-    },
-    {
-      "apostaCompleta": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "vendedor": "Joca",
-      "acerto": 3,
-      "apostaNum": "3",
-      "apostador": "DAmião Soares Santos",
-      "numerosAcertados": [
-        0,
-        0,
-        0
       ]
     },
     {
@@ -630,29 +818,6 @@
     },
     {
       "apostaCompleta": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "vendedor": "Cosme",
-      "acerto": 3,
-      "apostaNum": "3",
-      "apostador": "DAmião Soares Santos",
-      "numerosAcertados": [
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "apostaCompleta": [
         1,
         1,
         1,
@@ -672,29 +837,6 @@
         1,
         13,
         15
-      ]
-    },
-    {
-      "apostaCompleta": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "vendedor": "Teodoro",
-      "acerto": 3,
-      "apostaNum": "3",
-      "apostador": "DAmião Soares Santos",
-      "numerosAcertados": [
-        0,
-        0,
-        0
       ]
     },
     {
@@ -722,29 +864,6 @@
     },
     {
       "apostaCompleta": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "vendedor": "Adão",
-      "acerto": 3,
-      "apostaNum": "3",
-      "apostador": "DAmião Soares Santos",
-      "numerosAcertados": [
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "apostaCompleta": [
         1,
         1,
         1,
@@ -764,29 +883,6 @@
         1,
         13,
         15
-      ]
-    },
-    {
-      "apostaCompleta": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "vendedor": "Negão",
-      "acerto": 3,
-      "apostaNum": "3",
-      "apostador": "DAmião Soares Santos",
-      "numerosAcertados": [
-        0,
-        0,
-        0
       ]
     },
     {
@@ -814,29 +910,6 @@
     },
     {
       "apostaCompleta": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "vendedor": "Zé Grandão",
-      "acerto": 3,
-      "apostaNum": "3",
-      "apostador": "DAmião Soares Santos",
-      "numerosAcertados": [
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "apostaCompleta": [
         1,
         1,
         1,
@@ -860,29 +933,6 @@
     },
     {
       "apostaCompleta": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "vendedor": "Totonha",
-      "acerto": 3,
-      "apostaNum": "3",
-      "apostador": "DAmião Soares Santos",
-      "numerosAcertados": [
-        0,
-        0,
-        0
-      ]
-    },
-    {
-      "apostaCompleta": [
         1,
         1,
         1,
@@ -902,29 +952,6 @@
         1,
         13,
         15
-      ]
-    },
-    {
-      "apostaCompleta": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "vendedor": "Toinha",
-      "acerto": 3,
-      "apostaNum": "3",
-      "apostador": "DAmião Soares Santos",
-      "numerosAcertados": [
-        0,
-        0,
-        0
       ]
     },
     {
@@ -941,12 +968,14 @@
         11
       ],
       "vendedor": "Januário",
-      "acerto": 4,
+      "acerto": 6,
       "apostaNum": "2",
       "apostador": "Fulano de Tal Coisinho",
       "numerosAcertados": [
         0,
+        66,
         88,
+        33,
         99,
         55
       ]
@@ -965,12 +994,14 @@
         11
       ],
       "vendedor": "Joca",
-      "acerto": 4,
+      "acerto": 6,
       "apostaNum": "2",
       "apostador": "Fulano de Tal Coisinho",
       "numerosAcertados": [
         0,
+        66,
         88,
+        33,
         99,
         55
       ]
@@ -989,12 +1020,14 @@
         11
       ],
       "vendedor": "Cosme",
-      "acerto": 4,
+      "acerto": 6,
       "apostaNum": "2",
       "apostador": "Fulano de Tal Coisinho",
       "numerosAcertados": [
         0,
+        66,
         88,
+        33,
         55,
         55
       ]
@@ -1013,12 +1046,14 @@
         11
       ],
       "vendedor": "Teodoro",
-      "acerto": 4,
+      "acerto": 6,
       "apostaNum": "2",
       "apostador": "Fulano de Tal Coisinho",
       "numerosAcertados": [
         0,
+        66,
         88,
+        33,
         55,
         55
       ]
@@ -1037,12 +1072,14 @@
         11
       ],
       "vendedor": "Adão",
-      "acerto": 4,
+      "acerto": 6,
       "apostaNum": "2",
       "apostador": "Fulano de Tal Coisinho",
       "numerosAcertados": [
         0,
+        66,
         88,
+        33,
         55,
         55
       ]
@@ -1061,12 +1098,14 @@
         11
       ],
       "vendedor": "Negão",
-      "acerto": 4,
+      "acerto": 6,
       "apostaNum": "2",
       "apostador": "Fulano de Tal Coisinho",
       "numerosAcertados": [
         0,
+        66,
         88,
+        33,
         55,
         55
       ]
@@ -1085,12 +1124,14 @@
         11
       ],
       "vendedor": "Zé Grandão",
-      "acerto": 4,
+      "acerto": 6,
       "apostaNum": "2",
       "apostador": "Fulano de Tal Coisinho",
       "numerosAcertados": [
         0,
+        66,
         88,
+        33,
         55,
         55
       ]
@@ -1109,12 +1150,14 @@
         11
       ],
       "vendedor": "Totonha",
-      "acerto": 4,
+      "acerto": 6,
       "apostaNum": "2",
       "apostador": "Fulano de Tal Coisinho",
       "numerosAcertados": [
         0,
+        66,
         88,
+        33,
         55,
         55
       ]
@@ -1133,12 +1176,14 @@
         11
       ],
       "vendedor": "Toinha",
-      "acerto": 4,
+      "acerto": 6,
       "apostaNum": "2",
       "apostador": "Fulano de Tal Coisinho",
       "numerosAcertados": [
         0,
+        66,
         88,
+        33,
         55,
         55
       ]
@@ -1655,6 +1700,30 @@
     },
     {
       "apostaCompleta": [
+        10,
+        62,
+        31,
+        65,
+        32,
+        36,
+        60,
+        66,
+        51,
+        1
+      ],
+      "vendedor": "Matriz",
+      "acerto": 4,
+      "apostaNum": "4",
+      "apostador": "Josué Cardoso",
+      "numerosAcertados": [
+        1,
+        66,
+        31,
+        32
+      ]
+    },
+    {
+      "apostaCompleta": [
         56,
         15,
         21,
@@ -1727,6 +1796,30 @@
     },
     {
       "apostaCompleta": [
+        10,
+        62,
+        31,
+        65,
+        32,
+        36,
+        60,
+        66,
+        51,
+        1
+      ],
+      "vendedor": "Joca",
+      "acerto": 4,
+      "apostaNum": "4",
+      "apostador": "Josué Cardoso",
+      "numerosAcertados": [
+        1,
+        66,
+        31,
+        32
+      ]
+    },
+    {
+      "apostaCompleta": [
         56,
         15,
         21,
@@ -1799,6 +1892,30 @@
     },
     {
       "apostaCompleta": [
+        10,
+        62,
+        31,
+        65,
+        32,
+        36,
+        60,
+        66,
+        51,
+        1
+      ],
+      "vendedor": "Cosme",
+      "acerto": 4,
+      "apostaNum": "4",
+      "apostador": "Josué Cardoso",
+      "numerosAcertados": [
+        1,
+        66,
+        31,
+        32
+      ]
+    },
+    {
+      "apostaCompleta": [
         56,
         15,
         21,
@@ -1871,6 +1988,30 @@
     },
     {
       "apostaCompleta": [
+        10,
+        62,
+        31,
+        65,
+        32,
+        36,
+        60,
+        66,
+        51,
+        1
+      ],
+      "vendedor": "Teodoro",
+      "acerto": 4,
+      "apostaNum": "4",
+      "apostador": "Josué Cardoso",
+      "numerosAcertados": [
+        1,
+        66,
+        31,
+        32
+      ]
+    },
+    {
+      "apostaCompleta": [
         56,
         15,
         21,
@@ -1943,6 +2084,30 @@
     },
     {
       "apostaCompleta": [
+        10,
+        62,
+        31,
+        65,
+        32,
+        36,
+        60,
+        66,
+        51,
+        1
+      ],
+      "vendedor": "Adão",
+      "acerto": 4,
+      "apostaNum": "4",
+      "apostador": "Josué Cardoso",
+      "numerosAcertados": [
+        1,
+        66,
+        31,
+        32
+      ]
+    },
+    {
+      "apostaCompleta": [
         56,
         15,
         21,
@@ -2015,6 +2180,30 @@
     },
     {
       "apostaCompleta": [
+        10,
+        62,
+        31,
+        65,
+        32,
+        36,
+        60,
+        66,
+        51,
+        1
+      ],
+      "vendedor": "Negão",
+      "acerto": 4,
+      "apostaNum": "4",
+      "apostador": "Josué Cardoso",
+      "numerosAcertados": [
+        1,
+        66,
+        31,
+        32
+      ]
+    },
+    {
+      "apostaCompleta": [
         56,
         15,
         21,
@@ -2087,6 +2276,30 @@
     },
     {
       "apostaCompleta": [
+        10,
+        62,
+        31,
+        65,
+        32,
+        36,
+        60,
+        66,
+        51,
+        1
+      ],
+      "vendedor": "Zé Grandão",
+      "acerto": 4,
+      "apostaNum": "4",
+      "apostador": "Josué Cardoso",
+      "numerosAcertados": [
+        1,
+        66,
+        31,
+        32
+      ]
+    },
+    {
+      "apostaCompleta": [
         56,
         15,
         21,
@@ -2159,6 +2372,30 @@
     },
     {
       "apostaCompleta": [
+        10,
+        62,
+        31,
+        65,
+        32,
+        36,
+        60,
+        66,
+        51,
+        1
+      ],
+      "vendedor": "Totonha",
+      "acerto": 4,
+      "apostaNum": "4",
+      "apostador": "Josué Cardoso",
+      "numerosAcertados": [
+        1,
+        66,
+        31,
+        32
+      ]
+    },
+    {
+      "apostaCompleta": [
         56,
         15,
         21,
@@ -2227,6 +2464,30 @@
         13,
         16,
         56
+      ]
+    },
+    {
+      "apostaCompleta": [
+        10,
+        62,
+        31,
+        65,
+        32,
+        36,
+        60,
+        66,
+        51,
+        1
+      ],
+      "vendedor": "Toinha",
+      "acerto": 4,
+      "apostaNum": "4",
+      "apostador": "Josué Cardoso",
+      "numerosAcertados": [
+        1,
+        66,
+        31,
+        32
       ]
     },
     {
@@ -2278,29 +2539,6 @@
     },
     {
       "apostaCompleta": [
-        10,
-        62,
-        31,
-        65,
-        32,
-        36,
-        60,
-        66,
-        51,
-        1
-      ],
-      "vendedor": "Matriz",
-      "acerto": 3,
-      "apostaNum": "4",
-      "apostador": "Josué Cardoso",
-      "numerosAcertados": [
-        1,
-        31,
-        32
-      ]
-    },
-    {
-      "apostaCompleta": [
         6,
         35,
         78,
@@ -2324,6 +2562,29 @@
     },
     {
       "apostaCompleta": [
+        59,
+        74,
+        24,
+        5,
+        1,
+        66,
+        51,
+        78,
+        10,
+        57
+      ],
+      "vendedor": "Matriz",
+      "acerto": 3,
+      "apostaNum": "7",
+      "apostador": "Josué Cardoso",
+      "numerosAcertados": [
+        1,
+        66,
+        24
+      ]
+    },
+    {
+      "apostaCompleta": [
         16,
         1,
         65,
@@ -2347,29 +2608,6 @@
     },
     {
       "apostaCompleta": [
-        10,
-        62,
-        31,
-        65,
-        32,
-        36,
-        60,
-        66,
-        51,
-        1
-      ],
-      "vendedor": "Joca",
-      "acerto": 3,
-      "apostaNum": "4",
-      "apostador": "Josué Cardoso",
-      "numerosAcertados": [
-        1,
-        31,
-        32
-      ]
-    },
-    {
-      "apostaCompleta": [
         6,
         35,
         78,
@@ -2389,6 +2627,29 @@
         15,
         32,
         55
+      ]
+    },
+    {
+      "apostaCompleta": [
+        59,
+        74,
+        24,
+        5,
+        1,
+        66,
+        51,
+        78,
+        10,
+        57
+      ],
+      "vendedor": "Joca",
+      "acerto": 3,
+      "apostaNum": "7",
+      "apostador": "Josué Cardoso",
+      "numerosAcertados": [
+        1,
+        66,
+        24
       ]
     },
     {
@@ -2416,29 +2677,6 @@
     },
     {
       "apostaCompleta": [
-        10,
-        62,
-        31,
-        65,
-        32,
-        36,
-        60,
-        66,
-        51,
-        1
-      ],
-      "vendedor": "Cosme",
-      "acerto": 3,
-      "apostaNum": "4",
-      "apostador": "Josué Cardoso",
-      "numerosAcertados": [
-        1,
-        31,
-        32
-      ]
-    },
-    {
-      "apostaCompleta": [
         6,
         35,
         78,
@@ -2462,6 +2700,29 @@
     },
     {
       "apostaCompleta": [
+        59,
+        74,
+        24,
+        5,
+        1,
+        66,
+        51,
+        78,
+        10,
+        57
+      ],
+      "vendedor": "Cosme",
+      "acerto": 3,
+      "apostaNum": "7",
+      "apostador": "Josué Cardoso",
+      "numerosAcertados": [
+        1,
+        66,
+        24
+      ]
+    },
+    {
+      "apostaCompleta": [
         16,
         1,
         65,
@@ -2485,29 +2746,6 @@
     },
     {
       "apostaCompleta": [
-        10,
-        62,
-        31,
-        65,
-        32,
-        36,
-        60,
-        66,
-        51,
-        1
-      ],
-      "vendedor": "Teodoro",
-      "acerto": 3,
-      "apostaNum": "4",
-      "apostador": "Josué Cardoso",
-      "numerosAcertados": [
-        1,
-        31,
-        32
-      ]
-    },
-    {
-      "apostaCompleta": [
         6,
         35,
         78,
@@ -2527,6 +2765,29 @@
         15,
         32,
         55
+      ]
+    },
+    {
+      "apostaCompleta": [
+        59,
+        74,
+        24,
+        5,
+        1,
+        66,
+        51,
+        78,
+        10,
+        57
+      ],
+      "vendedor": "Teodoro",
+      "acerto": 3,
+      "apostaNum": "7",
+      "apostador": "Josué Cardoso",
+      "numerosAcertados": [
+        1,
+        66,
+        24
       ]
     },
     {
@@ -2554,29 +2815,6 @@
     },
     {
       "apostaCompleta": [
-        10,
-        62,
-        31,
-        65,
-        32,
-        36,
-        60,
-        66,
-        51,
-        1
-      ],
-      "vendedor": "Adão",
-      "acerto": 3,
-      "apostaNum": "4",
-      "apostador": "Josué Cardoso",
-      "numerosAcertados": [
-        1,
-        31,
-        32
-      ]
-    },
-    {
-      "apostaCompleta": [
         6,
         35,
         78,
@@ -2600,6 +2838,29 @@
     },
     {
       "apostaCompleta": [
+        59,
+        74,
+        24,
+        5,
+        1,
+        66,
+        51,
+        78,
+        10,
+        57
+      ],
+      "vendedor": "Adão",
+      "acerto": 3,
+      "apostaNum": "7",
+      "apostador": "Josué Cardoso",
+      "numerosAcertados": [
+        1,
+        66,
+        24
+      ]
+    },
+    {
+      "apostaCompleta": [
         16,
         1,
         65,
@@ -2619,29 +2880,6 @@
         1,
         16,
         56
-      ]
-    },
-    {
-      "apostaCompleta": [
-        10,
-        62,
-        31,
-        65,
-        32,
-        36,
-        60,
-        66,
-        51,
-        1
-      ],
-      "vendedor": "Negão",
-      "acerto": 3,
-      "apostaNum": "4",
-      "apostador": "Josué Cardoso",
-      "numerosAcertados": [
-        1,
-        31,
-        32
       ]
     },
     {
@@ -2669,6 +2907,29 @@
     },
     {
       "apostaCompleta": [
+        59,
+        74,
+        24,
+        5,
+        1,
+        66,
+        51,
+        78,
+        10,
+        57
+      ],
+      "vendedor": "Negão",
+      "acerto": 3,
+      "apostaNum": "7",
+      "apostador": "Josué Cardoso",
+      "numerosAcertados": [
+        1,
+        66,
+        24
+      ]
+    },
+    {
+      "apostaCompleta": [
         16,
         1,
         65,
@@ -2688,29 +2949,6 @@
         1,
         16,
         56
-      ]
-    },
-    {
-      "apostaCompleta": [
-        10,
-        62,
-        31,
-        65,
-        32,
-        36,
-        60,
-        66,
-        51,
-        1
-      ],
-      "vendedor": "Zé Grandão",
-      "acerto": 3,
-      "apostaNum": "4",
-      "apostador": "Josué Cardoso",
-      "numerosAcertados": [
-        1,
-        31,
-        32
       ]
     },
     {
@@ -2738,6 +2976,29 @@
     },
     {
       "apostaCompleta": [
+        59,
+        74,
+        24,
+        5,
+        1,
+        66,
+        51,
+        78,
+        10,
+        57
+      ],
+      "vendedor": "Zé Grandão",
+      "acerto": 3,
+      "apostaNum": "7",
+      "apostador": "Josué Cardoso",
+      "numerosAcertados": [
+        1,
+        66,
+        24
+      ]
+    },
+    {
+      "apostaCompleta": [
         16,
         1,
         65,
@@ -2761,29 +3022,6 @@
     },
     {
       "apostaCompleta": [
-        10,
-        62,
-        31,
-        65,
-        32,
-        36,
-        60,
-        66,
-        51,
-        1
-      ],
-      "vendedor": "Totonha",
-      "acerto": 3,
-      "apostaNum": "4",
-      "apostador": "Josué Cardoso",
-      "numerosAcertados": [
-        1,
-        31,
-        32
-      ]
-    },
-    {
-      "apostaCompleta": [
         6,
         35,
         78,
@@ -2803,6 +3041,29 @@
         15,
         32,
         55
+      ]
+    },
+    {
+      "apostaCompleta": [
+        59,
+        74,
+        24,
+        5,
+        1,
+        66,
+        51,
+        78,
+        10,
+        57
+      ],
+      "vendedor": "Totonha",
+      "acerto": 3,
+      "apostaNum": "7",
+      "apostador": "Josué Cardoso",
+      "numerosAcertados": [
+        1,
+        66,
+        24
       ]
     },
     {
@@ -2826,29 +3087,6 @@
         1,
         16,
         56
-      ]
-    },
-    {
-      "apostaCompleta": [
-        10,
-        62,
-        31,
-        65,
-        32,
-        36,
-        60,
-        66,
-        51,
-        1
-      ],
-      "vendedor": "Toinha",
-      "acerto": 3,
-      "apostaNum": "4",
-      "apostador": "Josué Cardoso",
-      "numerosAcertados": [
-        1,
-        31,
-        32
       ]
     },
     {
@@ -2887,365 +3125,190 @@
         10,
         57
       ],
-      "vendedor": "Matriz",
-      "acerto": 2,
-      "apostaNum": "7",
-      "apostador": "Josué Cardoso",
-      "numerosAcertados": [
-        1,
-        24
-      ]
-    },
-    {
-      "apostaCompleta": [
-        64,
-        62,
-        12,
-        46,
-        41,
-        61,
-        14,
-        19,
-        85,
-        49
-      ],
-      "vendedor": "Matriz",
-      "acerto": 2,
-      "apostaNum": "9",
-      "apostador": "Josué Cardoso",
-      "numerosAcertados": [
-        12,
-        14
-      ]
-    },
-    {
-      "apostaCompleta": [
-        59,
-        74,
-        24,
-        5,
-        1,
-        66,
-        51,
-        78,
-        10,
-        57
-      ],
-      "vendedor": "Joca",
-      "acerto": 2,
-      "apostaNum": "7",
-      "apostador": "Josué Cardoso",
-      "numerosAcertados": [
-        1,
-        24
-      ]
-    },
-    {
-      "apostaCompleta": [
-        64,
-        62,
-        12,
-        46,
-        41,
-        61,
-        14,
-        19,
-        85,
-        49
-      ],
-      "vendedor": "Joca",
-      "acerto": 2,
-      "apostaNum": "9",
-      "apostador": "Josué Cardoso",
-      "numerosAcertados": [
-        12,
-        14
-      ]
-    },
-    {
-      "apostaCompleta": [
-        59,
-        74,
-        24,
-        5,
-        1,
-        66,
-        51,
-        78,
-        10,
-        57
-      ],
-      "vendedor": "Cosme",
-      "acerto": 2,
-      "apostaNum": "7",
-      "apostador": "Josué Cardoso",
-      "numerosAcertados": [
-        1,
-        24
-      ]
-    },
-    {
-      "apostaCompleta": [
-        64,
-        62,
-        12,
-        46,
-        41,
-        61,
-        14,
-        19,
-        85,
-        49
-      ],
-      "vendedor": "Cosme",
-      "acerto": 2,
-      "apostaNum": "9",
-      "apostador": "Josué Cardoso",
-      "numerosAcertados": [
-        12,
-        14
-      ]
-    },
-    {
-      "apostaCompleta": [
-        59,
-        74,
-        24,
-        5,
-        1,
-        66,
-        51,
-        78,
-        10,
-        57
-      ],
-      "vendedor": "Teodoro",
-      "acerto": 2,
-      "apostaNum": "7",
-      "apostador": "Josué Cardoso",
-      "numerosAcertados": [
-        1,
-        24
-      ]
-    },
-    {
-      "apostaCompleta": [
-        64,
-        62,
-        12,
-        46,
-        41,
-        61,
-        14,
-        19,
-        85,
-        49
-      ],
-      "vendedor": "Teodoro",
-      "acerto": 2,
-      "apostaNum": "9",
-      "apostador": "Josué Cardoso",
-      "numerosAcertados": [
-        12,
-        14
-      ]
-    },
-    {
-      "apostaCompleta": [
-        59,
-        74,
-        24,
-        5,
-        1,
-        66,
-        51,
-        78,
-        10,
-        57
-      ],
-      "vendedor": "Adão",
-      "acerto": 2,
-      "apostaNum": "7",
-      "apostador": "Josué Cardoso",
-      "numerosAcertados": [
-        1,
-        24
-      ]
-    },
-    {
-      "apostaCompleta": [
-        64,
-        62,
-        12,
-        46,
-        41,
-        61,
-        14,
-        19,
-        85,
-        49
-      ],
-      "vendedor": "Adão",
-      "acerto": 2,
-      "apostaNum": "9",
-      "apostador": "Josué Cardoso",
-      "numerosAcertados": [
-        12,
-        14
-      ]
-    },
-    {
-      "apostaCompleta": [
-        59,
-        74,
-        24,
-        5,
-        1,
-        66,
-        51,
-        78,
-        10,
-        57
-      ],
-      "vendedor": "Negão",
-      "acerto": 2,
-      "apostaNum": "7",
-      "apostador": "Josué Cardoso",
-      "numerosAcertados": [
-        1,
-        24
-      ]
-    },
-    {
-      "apostaCompleta": [
-        64,
-        62,
-        12,
-        46,
-        41,
-        61,
-        14,
-        19,
-        85,
-        49
-      ],
-      "vendedor": "Negão",
-      "acerto": 2,
-      "apostaNum": "9",
-      "apostador": "Josué Cardoso",
-      "numerosAcertados": [
-        12,
-        14
-      ]
-    },
-    {
-      "apostaCompleta": [
-        59,
-        74,
-        24,
-        5,
-        1,
-        66,
-        51,
-        78,
-        10,
-        57
-      ],
-      "vendedor": "Zé Grandão",
-      "acerto": 2,
-      "apostaNum": "7",
-      "apostador": "Josué Cardoso",
-      "numerosAcertados": [
-        1,
-        24
-      ]
-    },
-    {
-      "apostaCompleta": [
-        64,
-        62,
-        12,
-        46,
-        41,
-        61,
-        14,
-        19,
-        85,
-        49
-      ],
-      "vendedor": "Zé Grandão",
-      "acerto": 2,
-      "apostaNum": "9",
-      "apostador": "Josué Cardoso",
-      "numerosAcertados": [
-        12,
-        14
-      ]
-    },
-    {
-      "apostaCompleta": [
-        59,
-        74,
-        24,
-        5,
-        1,
-        66,
-        51,
-        78,
-        10,
-        57
-      ],
-      "vendedor": "Totonha",
-      "acerto": 2,
-      "apostaNum": "7",
-      "apostador": "Josué Cardoso",
-      "numerosAcertados": [
-        1,
-        24
-      ]
-    },
-    {
-      "apostaCompleta": [
-        64,
-        62,
-        12,
-        46,
-        41,
-        61,
-        14,
-        19,
-        85,
-        49
-      ],
-      "vendedor": "Totonha",
-      "acerto": 2,
-      "apostaNum": "9",
-      "apostador": "Josué Cardoso",
-      "numerosAcertados": [
-        12,
-        14
-      ]
-    },
-    {
-      "apostaCompleta": [
-        59,
-        74,
-        24,
-        5,
-        1,
-        66,
-        51,
-        78,
-        10,
-        57
-      ],
       "vendedor": "Toinha",
-      "acerto": 2,
+      "acerto": 3,
       "apostaNum": "7",
       "apostador": "Josué Cardoso",
       "numerosAcertados": [
         1,
+        66,
         24
+      ]
+    },
+    {
+      "apostaCompleta": [
+        64,
+        62,
+        12,
+        46,
+        41,
+        61,
+        14,
+        19,
+        85,
+        49
+      ],
+      "vendedor": "Matriz",
+      "acerto": 2,
+      "apostaNum": "9",
+      "apostador": "Josué Cardoso",
+      "numerosAcertados": [
+        12,
+        14
+      ]
+    },
+    {
+      "apostaCompleta": [
+        64,
+        62,
+        12,
+        46,
+        41,
+        61,
+        14,
+        19,
+        85,
+        49
+      ],
+      "vendedor": "Joca",
+      "acerto": 2,
+      "apostaNum": "9",
+      "apostador": "Josué Cardoso",
+      "numerosAcertados": [
+        12,
+        14
+      ]
+    },
+    {
+      "apostaCompleta": [
+        64,
+        62,
+        12,
+        46,
+        41,
+        61,
+        14,
+        19,
+        85,
+        49
+      ],
+      "vendedor": "Cosme",
+      "acerto": 2,
+      "apostaNum": "9",
+      "apostador": "Josué Cardoso",
+      "numerosAcertados": [
+        12,
+        14
+      ]
+    },
+    {
+      "apostaCompleta": [
+        64,
+        62,
+        12,
+        46,
+        41,
+        61,
+        14,
+        19,
+        85,
+        49
+      ],
+      "vendedor": "Teodoro",
+      "acerto": 2,
+      "apostaNum": "9",
+      "apostador": "Josué Cardoso",
+      "numerosAcertados": [
+        12,
+        14
+      ]
+    },
+    {
+      "apostaCompleta": [
+        64,
+        62,
+        12,
+        46,
+        41,
+        61,
+        14,
+        19,
+        85,
+        49
+      ],
+      "vendedor": "Adão",
+      "acerto": 2,
+      "apostaNum": "9",
+      "apostador": "Josué Cardoso",
+      "numerosAcertados": [
+        12,
+        14
+      ]
+    },
+    {
+      "apostaCompleta": [
+        64,
+        62,
+        12,
+        46,
+        41,
+        61,
+        14,
+        19,
+        85,
+        49
+      ],
+      "vendedor": "Negão",
+      "acerto": 2,
+      "apostaNum": "9",
+      "apostador": "Josué Cardoso",
+      "numerosAcertados": [
+        12,
+        14
+      ]
+    },
+    {
+      "apostaCompleta": [
+        64,
+        62,
+        12,
+        46,
+        41,
+        61,
+        14,
+        19,
+        85,
+        49
+      ],
+      "vendedor": "Zé Grandão",
+      "acerto": 2,
+      "apostaNum": "9",
+      "apostador": "Josué Cardoso",
+      "numerosAcertados": [
+        12,
+        14
+      ]
+    },
+    {
+      "apostaCompleta": [
+        64,
+        62,
+        12,
+        46,
+        41,
+        61,
+        14,
+        19,
+        85,
+        49
+      ],
+      "vendedor": "Totonha",
+      "acerto": 2,
+      "apostaNum": "9",
+      "apostador": "Josué Cardoso",
+      "numerosAcertados": [
+        12,
+        14
       ]
     },
     {
@@ -3473,7 +3536,7 @@
         88
       ],
       "vendedor": "Cosme",
-      "acerto": 7,
+      "acerto": 8,
       "apostaNum": "2",
       "apostador": "Kaka",
       "numerosAcertados": [
@@ -3481,6 +3544,7 @@
         75,
         88,
         48,
+        55,
         55,
         55,
         55
@@ -3500,7 +3564,7 @@
         88
       ],
       "vendedor": "Teodoro",
-      "acerto": 7,
+      "acerto": 8,
       "apostaNum": "2",
       "apostador": "Kaka",
       "numerosAcertados": [
@@ -3508,6 +3572,7 @@
         75,
         88,
         48,
+        55,
         55,
         55,
         55
@@ -3527,7 +3592,7 @@
         88
       ],
       "vendedor": "Adão",
-      "acerto": 7,
+      "acerto": 8,
       "apostaNum": "2",
       "apostador": "Kaka",
       "numerosAcertados": [
@@ -3535,6 +3600,7 @@
         75,
         88,
         48,
+        55,
         55,
         55,
         55
@@ -3554,7 +3620,7 @@
         88
       ],
       "vendedor": "Negão",
-      "acerto": 7,
+      "acerto": 8,
       "apostaNum": "2",
       "apostador": "Kaka",
       "numerosAcertados": [
@@ -3562,6 +3628,7 @@
         75,
         88,
         48,
+        55,
         55,
         55,
         55
@@ -3581,7 +3648,7 @@
         88
       ],
       "vendedor": "Zé Grandão",
-      "acerto": 7,
+      "acerto": 8,
       "apostaNum": "2",
       "apostador": "Kaka",
       "numerosAcertados": [
@@ -3589,6 +3656,7 @@
         75,
         88,
         48,
+        55,
         55,
         55,
         55
@@ -3608,7 +3676,7 @@
         88
       ],
       "vendedor": "Totonha",
-      "acerto": 7,
+      "acerto": 8,
       "apostaNum": "2",
       "apostador": "Kaka",
       "numerosAcertados": [
@@ -3616,6 +3684,7 @@
         75,
         88,
         48,
+        55,
         55,
         55,
         55
@@ -3635,7 +3704,7 @@
         88
       ],
       "vendedor": "Toinha",
-      "acerto": 7,
+      "acerto": 8,
       "apostaNum": "2",
       "apostador": "Kaka",
       "numerosAcertados": [
@@ -3643,6 +3712,7 @@
         75,
         88,
         48,
+        55,
         55,
         55,
         55
@@ -3662,10 +3732,38 @@
         99
       ],
       "vendedor": "Toinho",
-      "acerto": 6,
+      "acerto": 7,
       "apostaNum": "1",
       "apostador": "Kaka",
       "numerosAcertados": [
+        0,
+        0,
+        0,
+        0,
+        15,
+        99,
+        53
+      ]
+    },
+    {
+      "apostaCompleta": [
+        0,
+        0,
+        0,
+        0,
+        15,
+        28,
+        69,
+        53,
+        26,
+        99
+      ],
+      "vendedor": "Joca",
+      "acerto": 7,
+      "apostaNum": "1",
+      "apostador": "Kaka",
+      "numerosAcertados": [
+        0,
         0,
         0,
         0,
@@ -3702,32 +3800,6 @@
     },
     {
       "apostaCompleta": [
-        0,
-        0,
-        0,
-        0,
-        15,
-        28,
-        69,
-        53,
-        26,
-        99
-      ],
-      "vendedor": "Joca",
-      "acerto": 6,
-      "apostaNum": "1",
-      "apostador": "Kaka",
-      "numerosAcertados": [
-        0,
-        0,
-        0,
-        15,
-        99,
-        53
-      ]
-    },
-    {
-      "apostaCompleta": [
         99,
         99,
         99,
@@ -3766,10 +3838,11 @@
         55
       ],
       "vendedor": "Cosme",
-      "acerto": 5,
+      "acerto": 6,
       "apostaNum": "1",
       "apostador": "Kaka",
       "numerosAcertados": [
+        0,
         0,
         0,
         0,
@@ -3791,10 +3864,11 @@
         55
       ],
       "vendedor": "Teodoro",
-      "acerto": 5,
+      "acerto": 6,
       "apostaNum": "1",
       "apostador": "Kaka",
       "numerosAcertados": [
+        0,
         0,
         0,
         0,
@@ -3816,10 +3890,11 @@
         55
       ],
       "vendedor": "Adão",
-      "acerto": 5,
+      "acerto": 6,
       "apostaNum": "1",
       "apostador": "Kaka",
       "numerosAcertados": [
+        0,
         0,
         0,
         0,
@@ -3841,10 +3916,11 @@
         55
       ],
       "vendedor": "Negão",
-      "acerto": 5,
+      "acerto": 6,
       "apostaNum": "1",
       "apostador": "Kaka",
       "numerosAcertados": [
+        0,
         0,
         0,
         0,
@@ -3866,10 +3942,11 @@
         55
       ],
       "vendedor": "Zé Grandão",
-      "acerto": 5,
+      "acerto": 6,
       "apostaNum": "1",
       "apostador": "Kaka",
       "numerosAcertados": [
+        0,
         0,
         0,
         0,
@@ -3891,10 +3968,11 @@
         55
       ],
       "vendedor": "Totonha",
-      "acerto": 5,
+      "acerto": 6,
       "apostaNum": "1",
       "apostador": "Kaka",
       "numerosAcertados": [
+        0,
         0,
         0,
         0,
@@ -3916,10 +3994,11 @@
         55
       ],
       "vendedor": "Toinha",
-      "acerto": 5,
+      "acerto": 6,
       "apostaNum": "1",
       "apostador": "Kaka",
       "numerosAcertados": [
+        0,
         0,
         0,
         0,
@@ -3941,11 +4020,12 @@
         56
       ],
       "vendedor": "Januário",
-      "acerto": 4,
+      "acerto": 5,
       "apostaNum": "2",
       "apostador": "Lucas",
       "numerosAcertados": [
         0,
+        66,
         88,
         55,
         56
@@ -3965,10 +4045,11 @@
         62
       ],
       "vendedor": "Januário",
-      "acerto": 3,
+      "acerto": 4,
       "apostaNum": "1",
       "apostador": "Lucas",
       "numerosAcertados": [
+        67,
         23,
         54,
         56
@@ -4020,6 +4101,240 @@
     },
     {
       "apostaCompleta": [
+        43,
+        78,
+        95,
+        21,
+        32,
+        10,
+        66,
+        48,
+        23,
+        51
+      ],
+      "vendedor": "Matriz",
+      "acerto": 6,
+      "apostaNum": "2",
+      "apostador": "Lucas Maia Santos",
+      "numerosAcertados": [
+        66,
+        21,
+        23,
+        32,
+        43,
+        48
+      ]
+    },
+    {
+      "apostaCompleta": [
+        43,
+        78,
+        95,
+        21,
+        32,
+        10,
+        66,
+        48,
+        23,
+        51
+      ],
+      "vendedor": "Joca",
+      "acerto": 6,
+      "apostaNum": "2",
+      "apostador": "Lucas Maia Santos",
+      "numerosAcertados": [
+        66,
+        21,
+        23,
+        32,
+        43,
+        48
+      ]
+    },
+    {
+      "apostaCompleta": [
+        43,
+        78,
+        95,
+        21,
+        32,
+        10,
+        66,
+        48,
+        23,
+        51
+      ],
+      "vendedor": "Cosme",
+      "acerto": 6,
+      "apostaNum": "2",
+      "apostador": "Lucas Maia Santos",
+      "numerosAcertados": [
+        66,
+        21,
+        23,
+        32,
+        43,
+        48
+      ]
+    },
+    {
+      "apostaCompleta": [
+        43,
+        78,
+        95,
+        21,
+        32,
+        10,
+        66,
+        48,
+        23,
+        51
+      ],
+      "vendedor": "Teodoro",
+      "acerto": 6,
+      "apostaNum": "2",
+      "apostador": "Lucas Maia Santos",
+      "numerosAcertados": [
+        66,
+        21,
+        23,
+        32,
+        43,
+        48
+      ]
+    },
+    {
+      "apostaCompleta": [
+        43,
+        78,
+        95,
+        21,
+        32,
+        10,
+        66,
+        48,
+        23,
+        51
+      ],
+      "vendedor": "Adão",
+      "acerto": 6,
+      "apostaNum": "2",
+      "apostador": "Lucas Maia Santos",
+      "numerosAcertados": [
+        66,
+        21,
+        23,
+        32,
+        43,
+        48
+      ]
+    },
+    {
+      "apostaCompleta": [
+        43,
+        78,
+        95,
+        21,
+        32,
+        10,
+        66,
+        48,
+        23,
+        51
+      ],
+      "vendedor": "Negão",
+      "acerto": 6,
+      "apostaNum": "2",
+      "apostador": "Lucas Maia Santos",
+      "numerosAcertados": [
+        66,
+        21,
+        23,
+        32,
+        43,
+        48
+      ]
+    },
+    {
+      "apostaCompleta": [
+        43,
+        78,
+        95,
+        21,
+        32,
+        10,
+        66,
+        48,
+        23,
+        51
+      ],
+      "vendedor": "Zé Grandão",
+      "acerto": 6,
+      "apostaNum": "2",
+      "apostador": "Lucas Maia Santos",
+      "numerosAcertados": [
+        66,
+        21,
+        23,
+        32,
+        43,
+        48
+      ]
+    },
+    {
+      "apostaCompleta": [
+        43,
+        78,
+        95,
+        21,
+        32,
+        10,
+        66,
+        48,
+        23,
+        51
+      ],
+      "vendedor": "Totonha",
+      "acerto": 6,
+      "apostaNum": "2",
+      "apostador": "Lucas Maia Santos",
+      "numerosAcertados": [
+        66,
+        21,
+        23,
+        32,
+        43,
+        48
+      ]
+    },
+    {
+      "apostaCompleta": [
+        43,
+        78,
+        95,
+        21,
+        32,
+        10,
+        66,
+        48,
+        23,
+        51
+      ],
+      "vendedor": "Toinha",
+      "acerto": 6,
+      "apostaNum": "2",
+      "apostador": "Lucas Maia Santos",
+      "numerosAcertados": [
+        66,
+        21,
+        23,
+        32,
+        43,
+        48
+      ]
+    },
+    {
+      "apostaCompleta": [
         1,
         3,
         5,
@@ -4041,31 +4356,6 @@
         13,
         15,
         55
-      ]
-    },
-    {
-      "apostaCompleta": [
-        43,
-        78,
-        95,
-        21,
-        32,
-        10,
-        66,
-        48,
-        23,
-        51
-      ],
-      "vendedor": "Matriz",
-      "acerto": 5,
-      "apostaNum": "2",
-      "apostador": "Lucas Maia Santos",
-      "numerosAcertados": [
-        21,
-        23,
-        32,
-        43,
-        48
       ]
     },
     {
@@ -4095,31 +4385,6 @@
     },
     {
       "apostaCompleta": [
-        43,
-        78,
-        95,
-        21,
-        32,
-        10,
-        66,
-        48,
-        23,
-        51
-      ],
-      "vendedor": "Joca",
-      "acerto": 5,
-      "apostaNum": "2",
-      "apostador": "Lucas Maia Santos",
-      "numerosAcertados": [
-        21,
-        23,
-        32,
-        43,
-        48
-      ]
-    },
-    {
-      "apostaCompleta": [
         1,
         3,
         5,
@@ -4141,31 +4406,6 @@
         13,
         15,
         55
-      ]
-    },
-    {
-      "apostaCompleta": [
-        43,
-        78,
-        95,
-        21,
-        32,
-        10,
-        66,
-        48,
-        23,
-        51
-      ],
-      "vendedor": "Cosme",
-      "acerto": 5,
-      "apostaNum": "2",
-      "apostador": "Lucas Maia Santos",
-      "numerosAcertados": [
-        21,
-        23,
-        32,
-        43,
-        48
       ]
     },
     {
@@ -4195,31 +4435,6 @@
     },
     {
       "apostaCompleta": [
-        43,
-        78,
-        95,
-        21,
-        32,
-        10,
-        66,
-        48,
-        23,
-        51
-      ],
-      "vendedor": "Teodoro",
-      "acerto": 5,
-      "apostaNum": "2",
-      "apostador": "Lucas Maia Santos",
-      "numerosAcertados": [
-        21,
-        23,
-        32,
-        43,
-        48
-      ]
-    },
-    {
-      "apostaCompleta": [
         1,
         3,
         5,
@@ -4241,31 +4456,6 @@
         13,
         15,
         55
-      ]
-    },
-    {
-      "apostaCompleta": [
-        43,
-        78,
-        95,
-        21,
-        32,
-        10,
-        66,
-        48,
-        23,
-        51
-      ],
-      "vendedor": "Adão",
-      "acerto": 5,
-      "apostaNum": "2",
-      "apostador": "Lucas Maia Santos",
-      "numerosAcertados": [
-        21,
-        23,
-        32,
-        43,
-        48
       ]
     },
     {
@@ -4295,31 +4485,6 @@
     },
     {
       "apostaCompleta": [
-        43,
-        78,
-        95,
-        21,
-        32,
-        10,
-        66,
-        48,
-        23,
-        51
-      ],
-      "vendedor": "Negão",
-      "acerto": 5,
-      "apostaNum": "2",
-      "apostador": "Lucas Maia Santos",
-      "numerosAcertados": [
-        21,
-        23,
-        32,
-        43,
-        48
-      ]
-    },
-    {
-      "apostaCompleta": [
         1,
         3,
         5,
@@ -4341,31 +4506,6 @@
         13,
         15,
         55
-      ]
-    },
-    {
-      "apostaCompleta": [
-        43,
-        78,
-        95,
-        21,
-        32,
-        10,
-        66,
-        48,
-        23,
-        51
-      ],
-      "vendedor": "Zé Grandão",
-      "acerto": 5,
-      "apostaNum": "2",
-      "apostador": "Lucas Maia Santos",
-      "numerosAcertados": [
-        21,
-        23,
-        32,
-        43,
-        48
       ]
     },
     {
@@ -4395,31 +4535,6 @@
     },
     {
       "apostaCompleta": [
-        43,
-        78,
-        95,
-        21,
-        32,
-        10,
-        66,
-        48,
-        23,
-        51
-      ],
-      "vendedor": "Totonha",
-      "acerto": 5,
-      "apostaNum": "2",
-      "apostador": "Lucas Maia Santos",
-      "numerosAcertados": [
-        21,
-        23,
-        32,
-        43,
-        48
-      ]
-    },
-    {
-      "apostaCompleta": [
         1,
         3,
         5,
@@ -4441,31 +4556,6 @@
         13,
         15,
         55
-      ]
-    },
-    {
-      "apostaCompleta": [
-        43,
-        78,
-        95,
-        21,
-        32,
-        10,
-        66,
-        48,
-        23,
-        51
-      ],
-      "vendedor": "Toinha",
-      "acerto": 5,
-      "apostaNum": "2",
-      "apostador": "Lucas Maia Santos",
-      "numerosAcertados": [
-        21,
-        23,
-        32,
-        43,
-        48
       ]
     },
     {
@@ -4525,6 +4615,31 @@
     },
     {
       "apostaCompleta": [
+        0,
+        3,
+        26,
+        2,
+        56,
+        65,
+        0,
+        0,
+        0,
+        0
+      ],
+      "vendedor": "Matriz",
+      "acerto": 5,
+      "apostaNum": "3",
+      "apostador": "Ramon Maia",
+      "numerosAcertados": [
+        0,
+        0,
+        0,
+        0,
+        56
+      ]
+    },
+    {
+      "apostaCompleta": [
         58,
         46,
         12,
@@ -4546,30 +4661,6 @@
         13,
         32,
         45
-      ]
-    },
-    {
-      "apostaCompleta": [
-        0,
-        3,
-        26,
-        2,
-        56,
-        65,
-        0,
-        0,
-        0,
-        0
-      ],
-      "vendedor": "Matriz",
-      "acerto": 4,
-      "apostaNum": "3",
-      "apostador": "Ramon Maia",
-      "numerosAcertados": [
-        0,
-        0,
-        0,
-        56
       ]
     },
     {
@@ -5212,10 +5303,11 @@
         99
       ],
       "vendedor": "Matriz",
-      "acerto": 7,
+      "acerto": 8,
       "apostaNum": "1",
       "apostador": "Serafim Soares Costa",
       "numerosAcertados": [
+        0,
         0,
         0,
         0,
@@ -5223,6 +5315,230 @@
         99,
         45,
         45
+      ]
+    },
+    {
+      "apostaCompleta": [
+        0,
+        0,
+        0,
+        0,
+        45,
+        45,
+        45,
+        45,
+        99,
+        99
+      ],
+      "vendedor": "Joca",
+      "acerto": 8,
+      "apostaNum": "1",
+      "apostador": "Serafim Soares Costa",
+      "numerosAcertados": [
+        0,
+        0,
+        0,
+        0,
+        99,
+        99,
+        45,
+        45
+      ]
+    },
+    {
+      "apostaCompleta": [
+        0,
+        0,
+        0,
+        0,
+        45,
+        45,
+        45,
+        45,
+        55,
+        55
+      ],
+      "vendedor": "Cosme",
+      "acerto": 8,
+      "apostaNum": "1",
+      "apostador": "Serafim Soares Costa",
+      "numerosAcertados": [
+        0,
+        0,
+        0,
+        0,
+        45,
+        45,
+        55,
+        55
+      ]
+    },
+    {
+      "apostaCompleta": [
+        0,
+        0,
+        0,
+        0,
+        45,
+        45,
+        45,
+        45,
+        55,
+        55
+      ],
+      "vendedor": "Teodoro",
+      "acerto": 8,
+      "apostaNum": "1",
+      "apostador": "Serafim Soares Costa",
+      "numerosAcertados": [
+        0,
+        0,
+        0,
+        0,
+        45,
+        45,
+        55,
+        55
+      ]
+    },
+    {
+      "apostaCompleta": [
+        0,
+        0,
+        0,
+        0,
+        45,
+        45,
+        45,
+        45,
+        55,
+        55
+      ],
+      "vendedor": "Adão",
+      "acerto": 8,
+      "apostaNum": "1",
+      "apostador": "Serafim Soares Costa",
+      "numerosAcertados": [
+        0,
+        0,
+        0,
+        0,
+        45,
+        45,
+        55,
+        55
+      ]
+    },
+    {
+      "apostaCompleta": [
+        0,
+        0,
+        0,
+        0,
+        45,
+        45,
+        45,
+        45,
+        55,
+        55
+      ],
+      "vendedor": "Negão",
+      "acerto": 8,
+      "apostaNum": "1",
+      "apostador": "Serafim Soares Costa",
+      "numerosAcertados": [
+        0,
+        0,
+        0,
+        0,
+        45,
+        45,
+        55,
+        55
+      ]
+    },
+    {
+      "apostaCompleta": [
+        0,
+        0,
+        0,
+        0,
+        45,
+        45,
+        45,
+        45,
+        55,
+        55
+      ],
+      "vendedor": "Zé Grandão",
+      "acerto": 8,
+      "apostaNum": "1",
+      "apostador": "Serafim Soares Costa",
+      "numerosAcertados": [
+        0,
+        0,
+        0,
+        0,
+        45,
+        45,
+        55,
+        55
+      ]
+    },
+    {
+      "apostaCompleta": [
+        0,
+        0,
+        0,
+        0,
+        45,
+        45,
+        45,
+        45,
+        55,
+        55
+      ],
+      "vendedor": "Totonha",
+      "acerto": 8,
+      "apostaNum": "1",
+      "apostador": "Serafim Soares Costa",
+      "numerosAcertados": [
+        0,
+        0,
+        0,
+        0,
+        45,
+        45,
+        55,
+        55
+      ]
+    },
+    {
+      "apostaCompleta": [
+        0,
+        0,
+        0,
+        0,
+        45,
+        45,
+        45,
+        45,
+        55,
+        55
+      ],
+      "vendedor": "Toinha",
+      "acerto": 8,
+      "apostaNum": "1",
+      "apostador": "Serafim Soares Costa",
+      "numerosAcertados": [
+        0,
+        0,
+        0,
+        0,
+        45,
+        45,
+        55,
+        55
       ]
     },
     {
@@ -5254,33 +5570,6 @@
     },
     {
       "apostaCompleta": [
-        0,
-        0,
-        0,
-        0,
-        45,
-        45,
-        45,
-        45,
-        99,
-        99
-      ],
-      "vendedor": "Joca",
-      "acerto": 7,
-      "apostaNum": "1",
-      "apostador": "Serafim Soares Costa",
-      "numerosAcertados": [
-        0,
-        0,
-        0,
-        99,
-        99,
-        45,
-        45
-      ]
-    },
-    {
-      "apostaCompleta": [
         1,
         18,
         35,
@@ -5308,33 +5597,6 @@
     },
     {
       "apostaCompleta": [
-        0,
-        0,
-        0,
-        0,
-        45,
-        45,
-        45,
-        45,
-        55,
-        55
-      ],
-      "vendedor": "Cosme",
-      "acerto": 7,
-      "apostaNum": "1",
-      "apostador": "Serafim Soares Costa",
-      "numerosAcertados": [
-        0,
-        0,
-        0,
-        45,
-        45,
-        55,
-        55
-      ]
-    },
-    {
-      "apostaCompleta": [
         1,
         18,
         35,
@@ -5357,33 +5619,6 @@
         18,
         24,
         48,
-        55
-      ]
-    },
-    {
-      "apostaCompleta": [
-        0,
-        0,
-        0,
-        0,
-        45,
-        45,
-        45,
-        45,
-        55,
-        55
-      ],
-      "vendedor": "Teodoro",
-      "acerto": 7,
-      "apostaNum": "1",
-      "apostador": "Serafim Soares Costa",
-      "numerosAcertados": [
-        0,
-        0,
-        0,
-        45,
-        45,
-        55,
         55
       ]
     },
@@ -5416,33 +5651,6 @@
     },
     {
       "apostaCompleta": [
-        0,
-        0,
-        0,
-        0,
-        45,
-        45,
-        45,
-        45,
-        55,
-        55
-      ],
-      "vendedor": "Adão",
-      "acerto": 7,
-      "apostaNum": "1",
-      "apostador": "Serafim Soares Costa",
-      "numerosAcertados": [
-        0,
-        0,
-        0,
-        45,
-        45,
-        55,
-        55
-      ]
-    },
-    {
-      "apostaCompleta": [
         1,
         18,
         35,
@@ -5465,33 +5673,6 @@
         18,
         24,
         48,
-        55
-      ]
-    },
-    {
-      "apostaCompleta": [
-        0,
-        0,
-        0,
-        0,
-        45,
-        45,
-        45,
-        45,
-        55,
-        55
-      ],
-      "vendedor": "Negão",
-      "acerto": 7,
-      "apostaNum": "1",
-      "apostador": "Serafim Soares Costa",
-      "numerosAcertados": [
-        0,
-        0,
-        0,
-        45,
-        45,
-        55,
         55
       ]
     },
@@ -5524,33 +5705,6 @@
     },
     {
       "apostaCompleta": [
-        0,
-        0,
-        0,
-        0,
-        45,
-        45,
-        45,
-        45,
-        55,
-        55
-      ],
-      "vendedor": "Zé Grandão",
-      "acerto": 7,
-      "apostaNum": "1",
-      "apostador": "Serafim Soares Costa",
-      "numerosAcertados": [
-        0,
-        0,
-        0,
-        45,
-        45,
-        55,
-        55
-      ]
-    },
-    {
-      "apostaCompleta": [
         1,
         18,
         35,
@@ -5578,33 +5732,6 @@
     },
     {
       "apostaCompleta": [
-        0,
-        0,
-        0,
-        0,
-        45,
-        45,
-        45,
-        45,
-        55,
-        55
-      ],
-      "vendedor": "Totonha",
-      "acerto": 7,
-      "apostaNum": "1",
-      "apostador": "Serafim Soares Costa",
-      "numerosAcertados": [
-        0,
-        0,
-        0,
-        45,
-        45,
-        55,
-        55
-      ]
-    },
-    {
-      "apostaCompleta": [
         1,
         18,
         35,
@@ -5627,33 +5754,6 @@
         18,
         24,
         48,
-        55
-      ]
-    },
-    {
-      "apostaCompleta": [
-        0,
-        0,
-        0,
-        0,
-        45,
-        45,
-        45,
-        45,
-        55,
-        55
-      ],
-      "vendedor": "Toinha",
-      "acerto": 7,
-      "apostaNum": "1",
-      "apostador": "Serafim Soares Costa",
-      "numerosAcertados": [
-        0,
-        0,
-        0,
-        45,
-        45,
-        55,
         55
       ]
     },
@@ -5905,10 +6005,11 @@
         63
       ],
       "vendedor": "fagner",
-      "acerto": 4,
+      "acerto": 5,
       "apostaNum": "1",
       "apostador": "hp",
       "numerosAcertados": [
+        66,
         15,
         25,
         53,
@@ -5929,10 +6030,11 @@
         63
       ],
       "vendedor": "Joca",
-      "acerto": 4,
+      "acerto": 5,
       "apostaNum": "1",
       "apostador": "hp",
       "numerosAcertados": [
+        66,
         15,
         25,
         53,
@@ -5953,10 +6055,11 @@
         63
       ],
       "vendedor": "Cosme",
-      "acerto": 3,
+      "acerto": 4,
       "apostaNum": "1",
       "apostador": "hp",
       "numerosAcertados": [
+        66,
         15,
         25,
         55
@@ -5976,10 +6079,11 @@
         63
       ],
       "vendedor": "Teodoro",
-      "acerto": 3,
+      "acerto": 4,
       "apostaNum": "1",
       "apostador": "hp",
       "numerosAcertados": [
+        66,
         15,
         25,
         55
@@ -5999,10 +6103,11 @@
         63
       ],
       "vendedor": "Adão",
-      "acerto": 3,
+      "acerto": 4,
       "apostaNum": "1",
       "apostador": "hp",
       "numerosAcertados": [
+        66,
         15,
         25,
         55
@@ -6022,10 +6127,11 @@
         63
       ],
       "vendedor": "Negão",
-      "acerto": 3,
+      "acerto": 4,
       "apostaNum": "1",
       "apostador": "hp",
       "numerosAcertados": [
+        66,
         15,
         25,
         55
@@ -6045,10 +6151,11 @@
         63
       ],
       "vendedor": "Zé Grandão",
-      "acerto": 3,
+      "acerto": 4,
       "apostaNum": "1",
       "apostador": "hp",
       "numerosAcertados": [
+        66,
         15,
         25,
         55
@@ -6068,10 +6175,11 @@
         63
       ],
       "vendedor": "Totonha",
-      "acerto": 3,
+      "acerto": 4,
       "apostaNum": "1",
       "apostador": "hp",
       "numerosAcertados": [
+        66,
         15,
         25,
         55
@@ -6091,10 +6199,11 @@
         63
       ],
       "vendedor": "Toinha",
-      "acerto": 3,
+      "acerto": 4,
       "apostaNum": "1",
       "apostador": "hp",
       "numerosAcertados": [
+        66,
         15,
         25,
         55
